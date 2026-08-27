@@ -1,0 +1,97 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "EEG-03",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "4aa5603012b98ddbd3f031a3c33e7e010fcc4b4c90045b2db71f616a6c71eee3",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_EEG-03.md",
+    "case_file_sha256": "a6cbd28510c49926192067101a774051a117edcdd47c04acb7e5899c52c1974c",
+    "declared_sources": [
+      {
+        "declared_sha256": "48fedb28b33fb2f458b0deb1fb90534d6d300eb15a4e70a30ff25efc0e56207b",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "48fedb28b33fb2f458b0deb1fb90534d6d300eb15a4e70a30ff25efc0e56207b",
+        "path": "/Users/bo/data/adp/investigations/dream_zhang_40hz_source_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "381326e027049d73a8e17394c470203f9038cd320d4251915ad7523c8ecaaca3",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "381326e027049d73a8e17394c470203f9038cd320d4251915ad7523c8ecaaca3",
+        "path": "/Users/bo/data/adp/investigations/dream_zhang_40hz_component_map_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "7aa14e08cce1c1c02a7a37014d4d0fc1aa5396a68c7ac9356711d736b7cb5418",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "7aa14e08cce1c1c02a7a37014d4d0fc1aa5396a68c7ac9356711d736b7cb5418",
+        "path": "/Users/bo/data/adp/investigations/dream_zhang_hf_contamination_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "c030a3fd7318128d07d1e10d674df563f1db0ddf3f5edb6f8b5d4ab8f5c502d0",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "c030a3fd7318128d07d1e10d674df563f1db0ddf3f5edb6f8b5d4ab8f5c502d0",
+        "path": "/Users/bo/data/adp/investigations/dream_zhang_hf_decomposition_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "97bed1fe9aea68a03afc41bb1fae04b8514775f51c9825ff87cd8f9035e909f8",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "97bed1fe9aea68a03afc41bb1fae04b8514775f51c9825ff87cd8f9035e909f8",
+        "path": "/Users/bo/data/adp/investigations/dream_zhang_hf_time_frequency_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "eff52c16e6e2b58b748df9d4dd2ecb8d98948c3c137dfe02edee37b301acc301",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "eff52c16e6e2b58b748df9d4dd2ecb8d98948c3c137dfe02edee37b301acc301",
+        "path": "/Users/bo/data/adp/investigations/dream_40hz_source_isolated_2026-08-07/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "3fb927235b7483e4ec9e91be74d11ba241556f1b4e088da8de326d14cf1b5cef",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "3fb927235b7483e4ec9e91be74d11ba241556f1b4e088da8de326d14cf1b5cef",
+        "path": "/Users/bo/data/adp/investigations/dream_40hz_labeled_artifact_2026-08-07/RUN_LESSON_CLOSEOUT.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "267fbb971a50e5e43a8b64a6b179dde1304b4541c6080ea4f7333f10426f8de0",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/EEG-03.json",
+      "sha256": "735d3ef90104056f44c2af77fb2c1a3e4aa911608b98610bd42ef5dffd7e2e2b"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
